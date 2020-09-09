@@ -79,18 +79,19 @@ nav{
 	width: 800px;
 	margin: auto;
 	top: 0;
+	display: flex;
 }
 
 
 a {
-	display: inline-block;
+	
 	width: 10%;
 	height: 20px;
 	text-decoration: none;
 	color: black;
 	font-size: 10px;
 	padding-left: 20px;
-	
+	padding-top: 10px;
 	
 }
 
@@ -113,17 +114,18 @@ h1{
 
 header{
 	margin-top: 50px;
+	padding-bottom: 20px;
+	display: flex;
+	border-bottom: 2px solid black;
 }
 
 .header-text{
-	display: inline-block;
 	width: 45%;
 	text-align: center;
-	vertical-align: middle;
+	padding-top: 40px;
 	margin-right: 20px;
 }
 .header-img{
-	vertical-align: middle;
 	width: 300px;
 	height: 300px;
 	margin-left: 90px;
@@ -137,15 +139,16 @@ button{
 }
 
 section{
-	border-top: 2px solid black;
-	border-bottom: 2px solid black;
+	
+	
 	margin-top: 40px;
 	margin-bottom: 40px;
+	display: flex;
 }
+
 
 .main-top{
 	width: 45%;
-	display: inline-block;
 	margin: 40px 25px 40px 0px;
 }
 
@@ -156,13 +159,17 @@ section{
 
 .main-bottom{
 	width: 28%;
-	display: inline-block;
 	margin: 40px 25px 40px 0px;
 }
 
 .main-bottom:last-child{
 	margin-right: 0px;
 	
+}
+
+footer{
+	border-top: 2px solid black;
+	padding-top: 20px;
 }
 
 address{
@@ -173,3 +180,4 @@ address{
 	text-align: center;
 	margin-bottom: 80px;
 }
+
